@@ -5,7 +5,7 @@ from version import get_version
 
 version = get_version()
 
-setup(name='gs.sitemember',
+setup(name='gs.memberdirectory',
     version=version,
     description="Group Membership content provider",
     long_description=open("README.txt").read() + "\n" +

@@ -6,7 +6,7 @@
    <browser:page 
     for="Products.XWFChat.interfaces.IGSGroupFolder"
     name="members.ajax"
-    class=".membersdirectory.AJAXMembers"
+    class="gs.memberdirectory.memberdirectory.AJAXMembers"
     permission="zope2.View" />
 
 </configure>
