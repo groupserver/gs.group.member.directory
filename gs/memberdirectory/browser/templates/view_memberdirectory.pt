@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:tal="http://xml.zope.org/namespaces/tal"
+  xmlns:metal="http://xml.zope.org/namespaces/metal"
+  metal:use-macro="context/@@groupserver_layout/page">
+  <head>
+    <title metal:fill-slot="title">Member Directory
+    </title>
+  </head>
+  <body>
+    <div metal:fill-slot="body" class="userProfile"
+      tal:define="authenticated python:user.has_role('Authenticated')">
+
+      <div class="memberdirectorycontainer">
+        <table cellpadding="0" cellspacing="0" border="0" width="95%" class="display" id="memberdirectory">
+            <thead>
+              <tr></tr>
+            </thead>
+	    <tbody>
+            </tbody>
+        </table>
+      </div>
+    </div>
+    <tal:block metal:fill-slot="javascript">
+
+      <link rel="stylesheet" type="text/css" href="/++resource++memberdirectory-20100121.css"/>
+      <script type="text/javascript" src="/++resource++jquery.dataTables.min-1.5.6.js">&#160;</script>
+      <script type="text/javascript" src="/++resource++memberdirectory-datatable-20100121.js">&#160;</script>
+
+    </tal:block>
+  </body>
+</html>
