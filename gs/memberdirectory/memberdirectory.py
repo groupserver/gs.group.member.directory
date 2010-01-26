@@ -50,7 +50,7 @@ class JSONMembers(BrowserView):
                 name = member.get_property('fn', '') or ''
             
             ml = ['<a href="'+member.url+'">'+imageUrl+'<p>'+name+'</p></a>',
-                  member.get_property('organisation', '') or '',
+                  member.get_property('org', '') or '',
                   member.get_property('region', '') or '',
                   member.get_property('locality', '') or '',
                   member.get_property('countryName', '') or '',
