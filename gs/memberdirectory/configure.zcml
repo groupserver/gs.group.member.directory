@@ -17,11 +17,11 @@
     template="browser/templates/view_memberdirectory.pt"
     permission="zope2.View" />
 
-  <browser:resource name="memberdirectory-20100121.css"
+  <browser:resource name="memberdirectory-20100202.css"
     file="browser/stylesheets/memberdirectory.css"
     permission="zope2.Public" />
 
-  <browser:resource name="memberdirectory-datatable-20100121.js"
+  <browser:resource name="memberdirectory-datatable-20100202.js"
     file="browser/javascript/memberdirectory-datatable.js"
     permission="zope2.Public" />
 

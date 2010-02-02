@@ -22,9 +22,9 @@
     </div>
     <tal:block metal:fill-slot="javascript">
 
-      <link rel="stylesheet" type="text/css" href="/++resource++memberdirectory-20100121.css"/>
+      <link rel="stylesheet" type="text/css" href="/++resource++memberdirectory-20100202.css"/>
       <script type="text/javascript" src="/++resource++jquery.dataTables.min-1.5.6.js">&#160;</script>
-      <script type="text/javascript" src="/++resource++memberdirectory-datatable-20100121.js">&#160;</script>
+      <script type="text/javascript" src="/++resource++memberdirectory-datatable-20100202.js">&#160;</script>
 
     </tal:block>
   </body>

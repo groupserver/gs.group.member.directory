@@ -24,10 +24,13 @@
                                "sWidth": "10%",
                                "sType":  "string-nocase-empty-last"},
                               {"sTitle": "City",
-                               "sWidth": "10%"},
+                               "sWidth": "10%",
+                               "sType":  "string-nocase-empty-last"},
                               {"sTitle": "Region",
-                               "sWidth": "10%"},
-                              {"sTitle": "Country"},
+                               "sWidth": "10%",
+                               "sType":  "string-nocase-empty-last"},
+                              {"sTitle": "Country",
+                               "sType":  "string-nocase-empty-last"},
                               {"sTitle": "Joined",
                                "sWidth": "5%"}]
        	} );
