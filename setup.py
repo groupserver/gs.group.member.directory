@@ -33,7 +33,7 @@ setup(name='gs.group.member.directory',
     install_requires=[
         'setuptools',
         'Products.GSGroup',
-        'Products.GSGroupMember'
+        'Products.GSGroupMember',
         'gs.group.member.base',
         # -*- Extra requirements: -*-
     ],
