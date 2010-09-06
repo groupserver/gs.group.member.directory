@@ -7,13 +7,13 @@
    <browser:page 
     for="Products.XWFChat.interfaces.IGSGroupFolder"
     name="members.json"
-    class="gs.memberdirectory.memberdirectory.JSONMembers"
+    class="gs.group.member.directory.memberdirectory.JSONMembers"
     permission="zope2.View" />
 
    <browser:page 
     for="Products.XWFChat.interfaces.IGSGroupFolder"
     name="memberdirectory"
-    class="gs.memberdirectory.memberdirectory.MembersView"
+    class="gs.group.member.directory.memberdirectory..MembersView"
     template="browser/templates/view_memberdirectory.pt"
     permission="zope2.View" />
 
