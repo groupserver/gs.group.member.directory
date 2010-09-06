@@ -5,7 +5,7 @@ from version import get_version
 
 version = get_version()
 
-setup(name='gs.memberdirectory',
+setup(name='gs.group.member.directory',
     version=version,
     description="Group Membership content provider",
     long_description=open("README.txt").read() + "\n" +
@@ -27,11 +27,14 @@ setup(name='gs.memberdirectory',
     url='http://www.onlinegroups.net/',
     license='other',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['gs',],
+    namespace_packages=['gs', 'gs.group', 'gs.group.member'],
     include_package_data=True,
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'Products.GSGroup',
+        'Products.GSGroupMember'
+        'gs.group.member.base',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
