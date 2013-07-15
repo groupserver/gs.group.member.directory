@@ -34,7 +34,7 @@ class JSONMembers(BrowserView):
         memberlist = []
         # 'url': member.url,
         for member in members:
-            imageUrl = member.imageUrl or ''
+            imageUrl = '%s/gs-profile-image-square/40' % member.url or ''
             if imageUrl:
                 imageUrl = '<img width="40" height="40" src="%s"/>' % imageUrl
             joined = member.get_property('creation_date', '') or ''
