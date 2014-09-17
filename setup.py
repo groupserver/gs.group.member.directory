@@ -8,8 +8,8 @@ version = get_version()
 setup(name='gs.group.member.directory',
     version=version,
     description="Group Membership content provider",
-    long_description=open("README.txt").read() + "\n" +
-                      open(os.path.join("docs", "HISTORY.txt")).read(),
+    long_description=open("README.rst").read() + "\n" +
+                      open(os.path.join("docs", "HISTORY.rst")).read(),
     classifiers=[
       "Development Status :: 4 - Beta",
       "Environment :: Web Environment",
